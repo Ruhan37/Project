@@ -1,79 +1,66 @@
-README.txt
+# 🏦 ATM Management System (C++ OOP Project)
 
-Project Title: ATM Management System (C++ OOP Project)
+**Developer:** Ruhan Ahsan Sarnav  
+**Department:** Computer Science and Engineering (CSE)  
+**Institution:** Khulna University of Engineering and Technology (KUET)  
 
-Developed by:
-Name: Ruhan Ahsan Sarnav
-Department: Computer Science and Engineering (CSE)
-Institution: Khulna University of Engineering and Technology (KUET)
+---
 
-1. Project Overview
+## 📖 Project Overview
+This is a **console-based ATM Management System** implemented in **C++ using Object-Oriented Programming (OOP)**.  
+It simulates real-world ATM functionalities including deposits, withdrawals, fund transfers, and account details display.  
 
-This project is a console-based ATM Management System implemented using Object-Oriented Programming (OOP) principles in C++.
-It simulates real-world ATM functionalities such as depositing, withdrawing, transferring money, and displaying user account details.
+The project demonstrates core OOP concepts such as **classes, objects, encapsulation, constructors, and friend functions**.
 
-2. Key Features
+---
 
-Deposit money into an account
+## ✨ Key Features
+- 💰 **Deposit:** Add money to an account.  
+- 🏦 **Withdraw:** Withdraw money with balance validation.  
+- 🔄 **Transfer Money:** Transfer funds between two accounts.  
+- 📄 **User Details:** Display account information for all users.  
+- 📊 **Transaction Tracking:** Track transactions using a class-based design.  
 
-Withdraw money from an account with balance validation
+---
 
-Transfer funds between two accounts
+## 💡 Core Concepts Used
+- Classes and Objects  
+- Encapsulation & Data Hiding  
+- Friend Functions and Friend Classes  
+- Constructor Initialization  
+- Composition (ATM contains Bank and Account objects)  
+- Menu-driven Program Flow  
 
-Display user and account details
+---
 
-Transaction tracking through class-based implementation
+## 🛠 Implemented Classes
+1. **Transaction** – Stores transaction details (ID, type, amount).  
+2. **Bank** – Manages bank-level balance and withdrawals.  
+3. **Account** – Stores account number, holder name, and balance.  
+4. **ATM** – Integrates all components and provides a user interface.  
 
-3. Concepts Used
+---
 
-Class and Object implementation
-
-Friend functions and friend classes
-
-Encapsulation and data hiding
-
-Constructor initialization
-
-Composition (ATM containing Bank and Account objects)
-
-Menu-driven program design
-
-4. Classes Implemented
-
-Transaction – Handles transaction details (ID, type, amount)
-
-Bank – Manages bank-level operations and balance control
-
-Account – Stores account information and balance per user
-
-ATM – Integrates all components and provides user interface
-
-5. How to Run
-
-Open the project in any C++ compiler (e.g., Code::Blocks, Dev-C++, or VS Code).
-
-Compile the code:
-
-g++ atm.cpp -o atm
+## 🚀 How to Run
+1. Open the project in a C++ compiler (e.g., Code::Blocks, Dev-C++, VS Code).  
+2. Compile the code:  
+   ```bash
+   g++ atm.cpp -o atm
 
 
-Run the executable:
+##Run the executable:
 
 ./atm
 
 
 Follow the on-screen menu to perform transactions.
 
-6. Future Improvements
-
-Persistent data storage using file handling
-
-Enhanced transaction history feature
-
-User authentication system
-
-GUI-based ATM interface
-
-7. Purpose
-
-This project was developed for educational purposes to demonstrate practical implementation of OOP concepts in C++ and to strengthen programming and system design skills.
+##---- ATM Menu ----
+1. Deposit
+2. Withdraw
+3. Transfer Money
+4. Display User Details
+5. Exit
+Choose an option: 1
+Enter the amount to deposit: 5000
+Deposit successful. Current balance: 5000
