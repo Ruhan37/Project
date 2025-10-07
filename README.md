@@ -48,14 +48,16 @@ The project demonstrates core OOP concepts such as **classes, objects, encapsula
    g++ atm.cpp -o atm
 
 
-##Run the executable:
-
-./atm
 
 
-Follow the on-screen menu to perform transactions.
+## Run the executable:
+ ```bash
+   ./atm
+```
 
-##---- ATM Menu ----
+## Follow the on-screen menu to perform transactions.
+
+## ---- ATM Menu ----
 1. Deposit
 2. Withdraw
 3. Transfer Money
